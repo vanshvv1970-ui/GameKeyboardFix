@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/activate_prompt" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activate_prompt" />
+        <Button android:gravity="fill_vertical" android:id="@id/activate_step_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activate_step_1" />
+        <Button android:gravity="fill_vertical" android:id="@id/activate_step_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activate_step_2" />
+        <EditText android:textSize="15.0sp" android:id="@id/activate_step_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/activate_step_3" android:cursorVisible="true" android:imeOptions="flagNoExtractUi" />
+        <LinearLayout android:orientation="horizontal" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:gravity="center" android:id="@id/activate_step_8" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/activate_step_8" android:layout_weight="1.0" />
+            <Button android:gravity="center" android:id="@id/activate_step_7" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/activate_step_7" android:layout_weight="1.0" />
+            <Button android:gravity="center" android:id="@id/activate_step_6" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/activate_step_6" android:layout_weight="1.0" />
+            <Button android:gravity="center" android:id="@id/activate_step_4" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/activate_step_4" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="0.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:gravity="center" android:id="@id/profile" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/profile" android:layout_weight="3.0" />
+            <Button android:gravity="center" android:id="@id/activate_step_5" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/activate_step_5" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:id="@id/usage" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/usage_text" />
+    </LinearLayout>
+</ScrollView>

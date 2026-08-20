@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.locnet.gamekeyboard.MyEditText android:textSize="20.0sp" android:id="@id/macro_string" android:layout_width="match_parent" android:layout_height="wrap_content" android:privateImeOptions="gk_macro" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/macro_add_step" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Step" android:layout_weight="1.0" />
+            <Button android:id="@id/macro_del_step" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Remove Step" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/macro_add_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Key" android:layout_weight="1.0" />
+            <Button android:id="@id/macro_del_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Remove Key" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:id="@id/macro_duration_instruction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Duration: " />
+            <SeekBar android:id="@id/macro_duration" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="20" android:progress="1" />
+        </LinearLayout>
+        <CheckBox android:textSize="20.0sp" android:id="@id/macro_repeat" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Repeat from beginning" />
+        <TextView android:textSize="10.0sp" android:id="@id/macro_repeat" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="macro format:&amp;lt;name>|&amp;lt;step1>|...|&amp;lt;step n>\nstep format:&amp;lt;key1>+...+&amp;lt;key n>,&amp;lt;duration>,&amp;lt;repeat>" />
+    </LinearLayout>
+</ScrollView>

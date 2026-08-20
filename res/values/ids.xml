@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id name="iconlist_icon" />
+    <id name="iconlist_text" />
+    <id name="keyboard" />
+    <id name="macro_string" />
+    <id name="macro_add_step" />
+    <id name="macro_del_step" />
+    <id name="macro_add_button" />
+    <id name="macro_del_button" />
+    <id name="macro_duration_instruction" />
+    <id name="macro_duration" />
+    <id name="macro_repeat" />
+    <id name="activate_prompt" />
+    <id name="activate_step_1" />
+    <id name="activate_step_2" />
+    <id name="activate_step_3" />
+    <id name="activate_step_8" />
+    <id name="activate_step_7" />
+    <id name="activate_step_6" />
+    <id name="activate_step_4" />
+    <id name="profile" />
+    <id name="activate_step_5" />
+    <id name="usage" />
+    <id name="overlay" />
+    <id name="slider_instruction" />
+    <id name="slider_seekbar" />
+</resources>

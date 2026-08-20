@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="20.0sp" android:id="@id/slider_instruction" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <SeekBar android:id="@id/slider_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="19" android:progress="15" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,188 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: pMVEFmLN8ID3x5xSnoiEnPoYuZM=
+X-Android-APK-Signed: 2
+
+Name: AndroidManifest.xml
+SHA1-Digest: S9RpvDBJtBDFI/WteM9meMNYtEg=
+
+Name: assets/dualshock_builtin.json
+SHA1-Digest: nQ/on2eEfhfbi/wjaoaIz6m1xXc=
+
+Name: assets/dualshock_in_builtin.json
+SHA1-Digest: CMTfn3uDsV08sk6UvgkLfx6Px9k=
+
+Name: assets/gamepad_builtin.json
+SHA1-Digest: pGTVTV27xPHFxfZRBPhzy+AskY0=
+
+Name: assets/injectEvent16.jar
+SHA1-Digest: KRHvhNAx0iSwQfSvWbhMDJ90vXY=
+
+Name: assets/joystick.kl
+SHA1-Digest: IhfYPCLFDrex/uHiK1+3mNPu0T8=
+
+Name: assets/libuinputserver.so
+SHA1-Digest: oiOsphGVFOoXZVGx6ZBLMaCfB88=
+
+Name: assets/readevent
+SHA1-Digest: 0UTRT2OJsYfYmOEAJX/D0GPwDDY=
+
+Name: assets/xperiaplay_builtin.json
+SHA1-Digest: DkXJSGW6q/L0+5nAGekXipU3sdA=
+
+Name: assets/xperiaplay_in_builtin.json
+SHA1-Digest: X5Zrwdy5uJbbn3DUrm5dnuMfkmo=
+
+Name: classes.dex
+SHA1-Digest: YfyusJjxajzL3NvBv8ruo+hB498=
+
+Name: res/drawable/button_a.png
+SHA1-Digest: no5KYDA+ULUBAaYSTM9zZOuAKhw=
+
+Name: res/drawable/button_b.png
+SHA1-Digest: WiISJR18R7bwsALXo6oo+5/n9AU=
+
+Name: res/drawable/button_c.png
+SHA1-Digest: XjnUFfcxY33z8lvZREbaPdBeDLI=
+
+Name: res/drawable/button_l2.png
+SHA1-Digest: /HEqOQXrvVplt/sZ8eCeIpZJ5+Y=
+
+Name: res/drawable/button_lb.png
+SHA1-Digest: luzcIu9nGI6Ls/SDI7Vs6X1wuNw=
+
+Name: res/drawable/button_r2.png
+SHA1-Digest: rk8/Op2Ru6q4nWD2Je5jZxH1d3Y=
+
+Name: res/drawable/button_rb.png
+SHA1-Digest: 7rbSgwSCQH1x7OOJ/usBePssjMw=
+
+Name: res/drawable/button_select.png
+SHA1-Digest: dUkXIUyQMFLlNxmxdJ3G6mpcxCE=
+
+Name: res/drawable/button_start.png
+SHA1-Digest: 5VZZn1v7i2JHz4Mn/qnjmJinohc=
+
+Name: res/drawable/button_x.png
+SHA1-Digest: BejuxBaeTuLsrske3qsgdxTEV/U=
+
+Name: res/drawable/button_y.png
+SHA1-Digest: AkTVjJopzEm93ryvuL33HD+rv4A=
+
+Name: res/drawable/button_z.png
+SHA1-Digest: 2ytfJE369IomL9som8JjBoxUa3g=
+
+Name: res/drawable/cursor.xml
+SHA1-Digest: K+afGwmFvxiBtkYTdaVcPpRea4g=
+
+Name: res/drawable/down.png
+SHA1-Digest: bshYc3WInhw2lfm4sgiwcdB/QA8=
+
+Name: res/drawable/dpad.png
+SHA1-Digest: vwM9E1gyIJkyXnsgXH38kfS5jT0=
+
+Name: res/drawable/file.png
+SHA1-Digest: gcnhQW50VHczzguuv1aBl+QAH3A=
+
+Name: res/drawable/folder.png
+SHA1-Digest: QMyV0EFundL0R4OwtBIMvTORekI=
+
+Name: res/drawable/icon.png
+SHA1-Digest: xIAeVFQRN44RDWneSggHDklF4rg=
+
+Name: res/drawable/icon32.png
+SHA1-Digest: AlhdbgXzHHup5gH8qBLy5Nw4ApU=
+
+Name: res/drawable/left.png
+SHA1-Digest: NzcoYJepTbu963ikS3lGTriSg7I=
+
+Name: res/drawable/right.png
+SHA1-Digest: 71PHncx9T/h6cuLU5lO6C+WqrOw=
+
+Name: res/drawable/stick_l.png
+SHA1-Digest: 5B5Z0Ui96yuOxSWp3Ew4M7CKWoU=
+
+Name: res/drawable/stick_r.png
+SHA1-Digest: bsnpsCOq0GA0T/XUFGquAiRIjWE=
+
+Name: res/drawable/sym_keyboard_delete.png
+SHA1-Digest: Wn7ptnsD71Isn8JAbkfXszNur+g=
+
+Name: res/drawable/sym_keyboard_delete2.png
+SHA1-Digest: gI7kuj4qQXijYeTIzQJIAA4tgaY=
+
+Name: res/drawable/sym_keyboard_done.png
+SHA1-Digest: UCw/72eP69P80ktlAGg5nGaWy+U=
+
+Name: res/drawable/sym_keyboard_done2.png
+SHA1-Digest: iwUYMU87jSEvQKSCAlkludIovbA=
+
+Name: res/drawable/sym_keyboard_return.png
+SHA1-Digest: n2+50zxcDJCEF2eBYXv2snKk7kc=
+
+Name: res/drawable/sym_keyboard_return2.png
+SHA1-Digest: 2hcGaYu6h/+9/8j7neTAe2bm/OA=
+
+Name: res/drawable/sym_keyboard_shift.png
+SHA1-Digest: If8JvPUy0DdhJnC/x9/+eby3Zis=
+
+Name: res/drawable/sym_keyboard_shift2.png
+SHA1-Digest: 7OH7l3FT8ELSD71ZtBaDfeQJQi0=
+
+Name: res/drawable/sym_keyboard_space.png
+SHA1-Digest: tHx8I+naAkiIKdjpSUt6E7kenME=
+
+Name: res/drawable/sym_keyboard_space2.png
+SHA1-Digest: zK45bcpy9x7J9xbQQxIbkJzFFD8=
+
+Name: res/drawable/up.png
+SHA1-Digest: KYGhMQkMH3dOgcyotTmAlDHVNK4=
+
+Name: res/layout/iconlist_item.xml
+SHA1-Digest: WLj0fNRX7lbeqJCxJAaSxCXf6KQ=
+
+Name: res/layout/input.xml
+SHA1-Digest: 03iNITa0P47HosMa/qrDLZUcg2g=
+
+Name: res/layout/input_null.xml
+SHA1-Digest: NELTNRVaJwdSRqnCPOyyN/j2axQ=
+
+Name: res/layout/macro.xml
+SHA1-Digest: YNjze5FugUKSnmx3xNEXErdb6OY=
+
+Name: res/layout/main.xml
+SHA1-Digest: V2j2IXrI6IZxenNhcKs0YlOiY5Q=
+
+Name: res/layout/overlay.xml
+SHA1-Digest: qN8AU2dMJ6c1Q1FCJ0knIylR0+M=
+
+Name: res/layout/prefs.xml
+SHA1-Digest: SFrlT20h2c4Y4WcYk77UkcM96Jk=
+
+Name: res/layout/slider.xml
+SHA1-Digest: 94Gdd5CtghoiGxj2AZykIfms1VM=
+
+Name: res/xml/full_gamepad.xml
+SHA1-Digest: ZbeZ0gwl3Iw84Gjjmpf6KYARd7A=
+
+Name: res/xml/kbd_popup_template.xml
+SHA1-Digest: 6CZXFQSSw8C6PpxI7AeED+HlI1M=
+
+Name: res/xml/method.xml
+SHA1-Digest: e9hnVgHlPiGNdg6rAOphaFfeLyw=
+
+Name: res/xml/null_kb.xml
+SHA1-Digest: ofTsxqVmemzdayXAMuVCXn7IdO8=
+
+Name: res/xml/qwerty.xml
+SHA1-Digest: lq2TUUjtWUqWw3ZTnEuz+6RTl1s=
+
+Name: res/xml/qwerty_shift.xml
+SHA1-Digest: 89goqKbb/xynSnuLPOlhEwK10VY=
+
+Name: res/xml/terminal.xml
+SHA1-Digest: 8MyWUxlked2croa0VvyvyT/yweY=
+
+Name: resources.arsc
+SHA1-Digest: PibBI7du1E4yFZ7Q0aJqmv5sUzs=
+
