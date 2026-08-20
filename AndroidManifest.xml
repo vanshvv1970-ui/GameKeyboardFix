@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.locnet.gamekeyboard" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <service android:name="com.locnet.gamekeyboard.SoftKeyboard" android:permission="android.permission.BIND_INPUT_METHOD" android:exported="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        </service>
+        
+        <activity android:label="@string/ime_name" android:name="com.locnet.gamekeyboard.SoftKeyboardLauncher" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:label="@string/app_settings" android:name="com.locnet.gamekeyboard.SoftKeyboardSettings" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.PREFERENCE"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:label="Choose a file" android:name="com.locnet.utility.GetFileView" android:exported="false"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:label="@string/gamepad_edit" android:name="com.locnet.gamekeyboard.GamepadEdit" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateVisible" android:exported="false"/>
+    </application>
+</manifest>
